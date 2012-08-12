@@ -17,8 +17,7 @@ public class EtsiSanatJaRivit {
   }
 
   private static String tiedostonNimi() {
-     System.out.println("Minkä tiedoston "+hakusana+" rivit haluat
-nähdä?");
+     System.out.println("Minkä tiedoston "+hakusana+" rivit haluat nähdä?");
      tiedostonNimi = lukija.nextLine();
      return tiedostonNimi;
   }
@@ -28,7 +27,7 @@ nähdä?");
 
      if (!tiedostoKahva.exists()) {
       System.out.println("Tiedostoa "+ tiedostonNimi +" ei löydy!");
-      return; // keskeytetään kaikki!
+      return;
      }
 
      Scanner syottotiedosto = new Scanner(tiedostoKahva);
@@ -39,8 +38,7 @@ nähdä?");
        String rivi = syottotiedosto.nextLine();
        String apurivi = rivi.toLowerCase();
        if (apurivi.indexOf(hakusana.toLowerCase()) != -1)
-         System.out.println(tiedostoKahva.getName()+": rivi "+riviNumero+":
-"+rivi);
+         System.out.println(tiedostoKahva.getName()+": rivi "+riviNumero+": "+rivi);
      }
 
      syottotiedosto.close();
