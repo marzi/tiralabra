@@ -1,12 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Pesonen
- */
 import java.util.Map;
 
 public class RadixLisays<V> implements Map.Entry<String, V> {
@@ -24,20 +15,20 @@ public class RadixLisays<V> implements Map.Entry<String, V> {
         this.arvo = arvo;
     }
 
-    public V setValue(V arvo) {
+    public V setArvo(V arvo) {
         this.arvo = arvo;
         return this.arvo;
     }
 
-    public V getValue() {
+    public V getArvo() {
         return arvo;
     }
 
-    public String getKey() {
+    public String getAvain() {
         return avain;
     }
 
-    public String setKey(String avain) {
+    public String setAvain(String avain) {
         this.avain = avain;
         return this.avain;
     }
