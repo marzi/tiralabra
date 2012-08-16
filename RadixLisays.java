@@ -1,3 +1,12 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author Pesonen
+ */
 import java.util.Map;
 
 public class RadixLisays<V> implements Map.Entry<String, V> {
@@ -34,5 +43,3 @@ public class RadixLisays<V> implements Map.Entry<String, V> {
     }
 
 }
-
-
