@@ -13,6 +13,10 @@ public abstract class VierailijaImpl<V, T> implements Vierailija<V, T> {
     public T getTulos() {
         return tulos;
     }
+    
+    public void setTulos(T tulos) {
+        this.tulos = tulos;
+    }
 
     abstract public void vieraile(String avain, RadixPuuSolmu<V> vanhempi, RadixPuuSolmu<V> solmu);
 

@@ -66,3 +66,7 @@ public class RadixPuuSolmu<V> {
     }
 
 }
+//ArrayList, LinkedList, Queue itse toteutettuna
+/**Komentorivivalikko ja vaihtoehdot, esim. kirjaimet, jolla
+kutsutaan metodeja **/
+/** N-tiedostoa, N-hakusanaa, N-kieltä **/

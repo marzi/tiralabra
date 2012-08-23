@@ -15,16 +15,16 @@ public class RadixLisays<V> implements Map.Entry<String, V> {
         this.arvo = arvo;
     }
 
-    public V setArvo(V arvo) {
+    public V setValue(V arvo) {
         this.arvo = arvo;
         return this.arvo;
     }
 
-    public V getArvo() {
+    public V getValue() {
         return arvo;
     }
 
-    public String getAvain() {
+    public String getKey() {
         return avain;
     }
 
